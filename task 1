@@ -1,0 +1,31 @@
+# ============================================================
+# Hospital Patient System
+# Purpose: Record and display basic patient information
+# ============================================================
+
+# ------------------------------------------------------------
+# Section i & ii: Create variables and assign patient details
+# ------------------------------------------------------------
+patient_name = "John Kamau"   # Stores the patient's full name
+patient_id = "P001"           # Stores the unique patient ID
+patient_age = 35              # Stores the patient's age in years
+patient_gender = "Male"       # Stores the patient's gender
+
+# ------------------------------------------------------------
+# Section iii: Display patient details using print() function
+# ------------------------------------------------------------
+print("----- Patient Details -----")
+print(patient_name)
+print(patient_id)
+print(patient_age)
+print(patient_gender)
+print()  # Blank line for readability
+
+# ------------------------------------------------------------
+# Section iv: Display information using f-strings
+# ------------------------------------------------------------
+print("----- Patient Details (Formatted) -----")
+print(f"Patient Name: {patient_name}")
+print(f"Patient ID: {patient_id}")
+print(f"Age: {patient_age}")
+print(f"Gender: {patient_gender}") 
