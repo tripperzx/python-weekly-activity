@@ -1,0 +1,19 @@
+# business.py
+# Demonstrates how Python can automate a simple business calculation
+
+# i & ii: Create variables and assign appropriate values
+business_name = "Green Valley Supermarket"
+product_name = "Cooking Oil (2L)"
+product_price = 450.00      # price per unit in local currency
+quantity_purchased = 12
+
+# Calculate total cost
+total_cost = product_price * quantity_purchased
+
+# Display the business transaction details
+print("----- Business Transaction Summary -----")
+print("Business Name:", business_name)
+print("Product:", product_name)
+print("Unit Price:", product_price)
+print("Quantity Purchased:", quantity_purchased)
+print("Total Cost:", total_cost)
